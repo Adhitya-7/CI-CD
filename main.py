@@ -15,6 +15,7 @@ def one_piece_quiz():
         
         if user_answer == answer:
             print("✓ Correct!\n")
+            print("Hello")
             score += 1
         else:
             print(f"✗ Wrong! Answer: {answer}\n")
